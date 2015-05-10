@@ -1,0 +1,170 @@
+html {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 1em;
+  text-color: #ffffff;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 1em;
+  color: #B22222;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  width: 800px;
+  background-image: url("http://m.flikie.com/ImageData/WallPapers/7245ad0605b84683b7ea29ed8f201d90.jpg");
+  background-repeat: repeat;
+}
+
+img {
+  border: 1px;
+  display: inline-block;
+  float:left;
+}
+header {
+   font-size: 40px;
+  padding: 15px;
+  text-align: right;
+  text-shadow: 3px 3px 3px;
+}
+header img {
+  vertical-align: text-bottom;
+  width: 200px;
+}
+header h1 {
+  display: inline;
+}
+/*#blog {
+  background-color: grey;
+   padding: 10px;
+  margin: 10px;
+  height: 20px;
+  width: 30px;
+  text-align: center;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: black;
+  float: left;
+}
+#creative {
+  background-color: grey;
+   padding: 10px;
+  margin: 10px;
+  height: 45px;
+  width: 45px;
+  float: left;
+  text-align: center;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: black;
+}
+#interest {
+  background-color: grey;
+   padding: 10px;
+  margin: 10px;
+  height: 50px;
+  width: 30px;
+  float: left;
+  text-align: center;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: black;
+}*/
+#navbar {
+  border-radius: 10px;
+  width: 500px;
+  padding: 20px;
+  margin:10px;
+  float: left;
+  display: block;
+  color:#66C2C2;
+}
+a {
+  display: block;
+  padding: 20px;
+  float: left;
+  font-weight: bolder;
+}
+#page {
+  border-style: double;
+  border-color: black;
+}
+#content {
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+section {
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+/*#foot {
+  border-radius: 10px;
+  width: 500px;
+  height: 40px;
+  padding: 20px;
+  margin: 80px;
+  text-align:center;
+  vertical-align: center;
+  display: block;
+}*/
+ul {
+  list-style-type: none;
+  margin: 15px;
+  padding: 5px;
+  overflow: auto;
+}
+li {
+  color:#66C2C2;
+  float: left;
+  padding: 20px;
+  margin: 20px;
+  height: 20px;
+  width: 30px;
+  text-align:center;
+  display: inline-block;
+  white-space: nowrap;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+a:link {
+  text-decoration: none;
+  color: #66C2C2;
+  font-weight:bolder;
+  text-shadow: 1px 1px 2px;
+  text-align: center;
+}
+a:visited {
+  text-decoration: none;
+  color: violet;
+}
+a:hover {
+  text-decoration: none;
+  color: red;
+}
+p {
+  background-color: grey;
+  padding: 25px;
+  margin: 25px;
+  text-align: center;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: black;
+}
+header {
+  text-align: left;
+  padding-left: 15px;
+  padding-top:5px;
+  padding-right:5px;
+  padding-bottom:5px;
+  margin: 10px;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: black;
+
+}
