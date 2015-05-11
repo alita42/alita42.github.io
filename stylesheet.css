@@ -168,3 +168,12 @@ header {
   border-color: black;
 
 }
+blockquote {
+  background-color: grey;
+  padding: 25px;
+  margin: 25px;
+  text-align: center;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: black;
+}
