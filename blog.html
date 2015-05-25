@@ -17,7 +17,40 @@
       </nav>
     </div>
 <div>
-          <section>
+          <header>
+      <h3>Technical Blog</h3>
+  <h4>Phase 0 Unit 2 Week 4</h4>
+  <h5> May 23rd, 2015</h5>
+</header>
+       <section>
+    <p>As a programming newbie it has only recently dawned on me how useful a language can be. Or even just an aspect of a language. This week, we found out how to make Classes in Ruby and for the first time I started to get an idea of how a full program might look. It was exciting.</p>
+    <p> We've been studying enumerable methods. I had no idea what that meant until this week. It's a set of methods that do something to each element in a data set. Whether that set is a range of integers, an array of strings or a hash, an enumerable is simply a iteration over that data set to perform some function.</p>
+    <p>I had occasion this week to use the #map method. The #map method is very nice. I was attempting to change every integer within an array of both integers and strings. So I used the #map method to go through every single element to see if it was an integer or a string and if it was an integer, I'd update it.</p>
+    <p> Here's what that might look like:
+  <blockquote> source.map! do |i|
+    if i.is_a? Numeric
+      i + 1
+    else
+      i
+    end
+    </blockquote></p>
+    <p>Ahh, but "what's with that exclamation point?" you ask? I'll get to that. </p>
+    <p>#Map always returns an array. It can also only be used on arrays. It always goes through each element of a data set and performs some data block on it. However, #map! can actually change the original array to update it. It's a built-in function of Ruby that allows you to make changes in-line, but this one in particular only works on arrays.</p>
+    <p> So in summary: the #map method helps you to do something to every member in a data collection. You could do this if you needed to add two to every number in a set, or every fifth letter needed to be capitalized. Anyway, I think it's cool. Let me know if I've gotten anything wrong!</p>
+  </section>
+          <header>
+  <h3>Cultural Blog</h3>
+  <h4>Phase 0 Unit 2 Week 4</h4>
+  <h5> May 24th, 2015</h5>
+</header>
+       <section>
+    <p>I was asked to research and discuss a problem facing the tech community and I had to tell a story about women. Multiple women. Including me. Including my mother. Including friends I had in college. I don't need to do research to tell these stories. I just have to pay attention.
+    </p>
+    <p>I attended a very liberal, very small, Quaker college in Indiana called Earlham. It was wonderful. Full of big ideas, political correctness, and everyone wanting to save the world in their own way. A friend of mine, we'll call her Hannah, was an English major, like me, but she hadn't started there. She told me she started in the Computer Science department, but during her intro class she felt SO uncomfortable. She was the only woman in the class and all the other students and the professor were really awkward about it. The way she told it it wasn't that they openly DID anything, but it'd be... lingering looks at her breasts, openly scratching themselves, pointing out her gender for no reason. She changed her major to English because it just didn't have the same offensive culture that the Computer Science major did. She wasn't the only person I heard this from. My boyfriend at the time was in the Computer Science major and he knew exactly the culture she was talking about. He complained about it too - it was why he didn't hang out with the other CS majors. Here, in this haven of liberal thinking, where everyone's voice is valid, there remains a pocket of sexism reserved only for the Tech kids? Hannah's story and my boyfriend's discomfort told me a lot about tech culture at the time (this was 2004).</p>
+    <p>I've always been around technology. My father worked for an electronics store for as I can remember and growing up we often had beta tests of the latest versions of Windows. We had more games than we could count for multiple systems. Our home-built computers would often be upgraded with more RAM or better graphics cards. Somehow, though, I felt like technology - software and hardware - were in some way not FOR me. Perhaps it's because I only knew men who really got computers and how to manipulate them. I knew way better than mother how to manage and work with my computer, but not as well as my guy friends who knew that stuff. I took a class in high school in Visual Basic where I did just as well as the best students in the class (boys, of course) and I wasn't asked to help tutor the rest of the class while the boys were. I didn't think anything of it at the time, I was happy to have free time to make my silly little programs do silly little things and amuse myself. Looking back though, it's not cool.</p>
+    <p>The lack of women in tech is a broad, wide-reaching problem that I do believe is slowly changing. But it is filled with stories of micro-aggressions perpetrated toward individual women. And when that turns one woman off, another woman says "oh, that stuff isn't for me". Whether they don't think it's for them because it's beyond their mental reach (I can't tell you how many women I've told I'm studying web development and they look at me like I've decided to study quantum physics), or because they've never seen a woman do it, they don't even consider it an option.</p>
+    <p> Since entering this program, and getting interested in this career path, I've realized that the thing that kept me from it before was fear. Fear that I really wasn't as smart as my male friends who all knew how to write cool games and build computers. Fear that I'd experience the same kind of microaggressions that Hannah did.Until a woman sent me a link to Codecademy and two of my best female friends were attending coding bootcamps and I attended a Girl Develop It meeting, I didn't really feel like I had a place in tech. Now, those feelings are starting to change. I hope they continue. I hope they continue for all women. Because we each have a unique voice and it's worth listening to no matter who you are.</p>
+      </section>
           <header>
     <h3>Technical Blog</h3>
   <h4>Phase 0 Unit 1 Week 3</h4>
